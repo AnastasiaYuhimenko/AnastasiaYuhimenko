@@ -1,7 +1,8 @@
-## Здесь пока ничего 👋
+## Здесь пока ничего нет👋
 ## test
 ## прикольно
 ## поменяю как-нибудь потом
+## или нет
 <!--
 **AnastasiaYuhimenko/AnastasiaYuhimenko** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
