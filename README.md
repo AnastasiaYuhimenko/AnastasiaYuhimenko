@@ -1,4 +1,4 @@
-# Привет, я Анастасия Юхименко 👋
+# Привет, я Настя 👋
 
 <!--
 **anastasia-yukhimenko/anastasia-yukhimenko** is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
