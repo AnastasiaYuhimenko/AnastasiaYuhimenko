@@ -1,20 +1,23 @@
 # Привет, я Настя 👋
 
-<!--
-**anastasia-yukhimenko/anastasia-yukhimenko** is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+**iOS-разработчик** · 16 лет · Учусь в 10 классе
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=blueviolet" alt="Profile views"/>
-</p>
 
----
+## 🛠 Стек
 
-## 🎯 Обо мне
+| Область | Технологии |
+|---------|------------|
+| **Языки** | Swift 5, чуть-чуть Objective-C |
+| **UI** | SwiftUI |
+| **Архитектура** | MVVM, разделение на View / ViewModel / Service / Networking |
+| **Сеть** | `URLSession`, `Codable`, `multipart/form-data`, собственный слой `APIClient` / `Requestable` / `Resource` |
+| **Хранение данных** | Core Data (`NSPersistentContainer`, `@FetchRequest`), `UserDefaults`, FileManager |
 
-**16 лет** · Учусь в **10 классе** · Backend-разработчик
-
-> Стремлюсь к созданию надёжных, масштабируемых решений и постоянно совершенствую навыки в промышленной разработке.
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=swift&logoColor=white)
+![Combine](https://img.shields.io/badge/Combine-4B0082?style=for-the-badge&logo=swift&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-1575F9?style=for-the-badge&logo=xcode&logoColor=white)
+![Core%20Data](https://img.shields.io/badge/Core_Data-3DDC84?style=for-the-badge&logo=apple&logoColor=white)
 
 ---
 
@@ -22,92 +25,122 @@
 
 | Награда | Описание |
 |---------|----------|
-| 🥇 **Финалист PROD** | Международная олимпиада по промышленной разработке |
-| 🥇 **Финалист «Высшая проба»** | Олимпиада по промышленному программированию |
-| 🥇 **Финалист NlogN** | Олимпиада по алгоритмам |
+| 🥇 Финалист **PROD** | Международная олимпиада по промышленной разработке |
+| 🥇 Финалист **«Высшая проба»** | Олимпиада по промышленному программированию |
+| 🥇 Финалист **NlogN** | Олимпиада по алгоритмам |
 
 ---
 
 ## 📚 Образование
 
+- курс IOS-разработчик от MerionAcademy
+
 ### Яндекс Лицей
 - Основы программирования на Python
-- Основы промышленного программирования на Python
+- Основы промышленного программирования
 - Специализация: веб-разработка на Go
-- Самостоятельные курсы: Go 1 и Go 2
+- Самостоятельные курсы Go 1 и Go 2
 
-### Т‑Поколение
+
+### Т-Поколение
 - Кружок по алгоритмам *(в процессе)*
 
----
-
-## 🛠 Технологический стек
-
-<p align="center">
-  
-  **Backend**
-  
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-  ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-  
-  **Базы данных & Инфраструктура**
-  
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  
-  **DevOps**
-  
-  ![CI/CD](https://img.shields.io/badge/CI%2FCD-239120?style=for-the-badge&logo=github-actions&logoColor=white)
-  
-  **Прочие**
-  
-  ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-  ![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-  ![SwiftUI](https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=swift&logoColor=white)
-  
-</p>
-
-| Категория | Технологии |
-|-----------|------------|
-| **Backend** | Python, FastAPI, Go |
-| **БД** | PostgreSQL |
-| **Инфраструктура** | Docker, CI/CD, деплой |
-| **Языки** | C++ (базовый уровень), Swift + SwiftUI (в изучении) |
+### Самостоятельно — iOS
+- Swift, SwiftUI, Combine, Core Data, AVFoundation, URLSession
+- MVVM-архитектура и собственный сетевой слой
+- Регулярная практика на пет-проектах
 
 ---
 
-## 📈 Статистика
+## 📱 iOS-проекты
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnastasiaYuhimenko&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB" alt="GitHub Stats"/>
-</p>
+### [ScreenEx](https://github.com/AnastasiaYuhimenko/ScreenEx) — приложение-портфель для отслеживания крипты
+SwiftUI-приложение с собственным портфелем монет, поиском и просмотром топ-рынка.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak"/>
-</p>
+- Архитектура **MVVM** с разделением на `BaseViewModel`, `SearchViewModel`, `PortfolioModelView`, `AddCoinsToPortfolioViewModel`.
+- Свой сетевой слой: `APIClient`, протоколы `Requestable`, `Resource`, расширение `URLRequest+Requestable`, `JSONEncoder/Decoder` со snake_case.
+- **Core Data** для хранения портфеля (`Portfolio.xcdatamodeld`, `Coins+CoreDataClass`, `PersistenceController`).
+- Сервисный слой: `MarketDataService`, `CoinImageDataService`, `PortfolioService`, `SearchService`.
+- Поддержка тёмной/светлой темы через свои `colorset`-палитры.
 
----
-
-## 💼 Почему меня стоит рассмотреть
-
-- ✅ Понимание принципов CI/CD и деплоя
-- ✅ Умение работать с Docker и контейнеризацией
-- ✅ Готовность быстро учиться и доводить задачи до конца
-- ✅ Я крутая и вообще молодец
+**Стек:** SwiftUI · URLSession · Core Data
 
 ---
 
-## 📫 Связаться
+### [EngineChecker](https://github.com/AnastasiaYuhimenko/EngineChecker) — диагностика двигателя по звуку
+Приложение записывает звук двигателя с микрофона и отправляет его на ML-сервис, который классифицирует состояние: норма / аномалия. Поддерживает пакетный режим — загрузку ZIP с записями.
 
-<p align="center">
-  <a href="mailto:mail@yuhimenko-anastasia.ru">📧 Email</a> ·
-  <a href="https://t.me/AnastasiaYhimenko">💬 Telegram</a> ·
-  <a href="https://career.habr.com/YOUR_PROFILE">💼 Habr Career</a>
-</p>
+- Запись и склейка нескольких сегментов в один WAV через `AVAudioRecorder`.
+- Загрузка файлов на сервер через `multipart/form-data` (`URLSession`).
+- Экраны: `MainScreen`, `ScanScreen`, `ResultScreen`, `BatchResultScreen` — построены на SwiftUI
+- Работа с разрешениями на микрофон, кастомные шрифты (Orbitron), Asset Catalog для палитры.
+
+**Стек:** SwiftUI · Combine · AVFoundation · URLSession · multipart/form-data
 
 ---
 
-<p align="center">
-  <i>Открыта к стажировкам и интересным проектам</i> ✨
-</p>
+### [GPU-manager-IOS](https://github.com/AnastasiaYuhimenko/GPU-manager-IOS) — приложение для управления GPU-ресурсами
+Мобильный клиент для системы, в которой студенты, преподаватели и администраторы делят вычислительные ресурсы (GPU)
+
+- Авторизация и регистрация: `Login`, `SignUp`, `LoginService`, обработка JWT.
+- Три роли — три набора экранов: `homePageStudent`, `teacherHomePage`, `homePageAdmin` + админский `AllGpus`, `GroupInfo`, `GroupInfoAdmin`.
+- Экран `UsingGPU` — мониторинг текущего использования.
+- Интеграция с бекендом на Python
+
+**Стек:** SwiftUI · URLSession · ролевая модель экранов
+
+---
+
+### [MiniBankApp](https://github.com/AnastasiaYuhimenko/MiniBankApp) — главный экран банковского приложения
+Учебный концепт: главный экран онлайн-банка с карточкой баланса, быстрыми переводами и историей операций.
+
+- Чистая компоновка из переиспользуемых View: `CardViewContent`, `QuickSendCard`, `RecentActivitieCard`, `cardShape`, `header`.
+- Кастомная цветовая схема (10+ colorsets), работа с PNG-ассетами (PayPal, Amazon).
+- Адаптация под тёмную/светлую тему.
+
+**Стек:** SwiftUI · Asset Catalog · композиция View
+
+---
+
+### [CryptoWalletAppSwift](https://github.com/AnastasiaYuhimenko/CryptoWalletAppSwift) — главный экран крипто-кошелька
+SwiftUI-проект с акцентом на UI: «шапка», карточка с общим балансом, блок быстрых действий и список расходов.
+
+- Композиция экрана из независимых модулей в папке `parts/`: `hat`, `totalFundsCard`, `actions`, `costs`.
+- Работа с градиентами и кастомной палитрой (`cardGradientBlue`, `cardGradientPurple`, `lineBlue`, `linePurple` и др.).
+
+**Стек:** SwiftUI
+
+---
+
+### [RandomScreens](https://github.com/AnastasiaYuhimenko/RandomScreens) — сборник экранов, которые я воспроизводила по дизайнам из Figma и Pinterest, чтобы прокачать SwiftUI и насмотренность.
+
+- **FoodApp**: главный экран ресторана, страница блюда, корзина, оформление заказа, оплата, история, логин/регистрация, состояние «нет интернета», экран ошибки «не найдено», профиль.
+- **StudyAppMainScreen**: дашборд курсов с прогрессом и поиском.
+
+**Стек:** SwiftUI 
+
+---
+
+## 🧩 Что я умею в iOS
+
+- Проектировать приложение по слоям: **Views / ViewModels / Services / Networking**, не путать UI-логику с бизнесовой.
+- Писать сетевой слой с нуля: типизированные запросы, `Codable`, snake_case decoder/encoder, обработка ошибок.
+- Подключать **Core Data**: модель, контейнер, фоновые контексты, `@FetchRequest`.
+- Работать с **AVFoundation**: запись звука, склейка сегментов, экспорт в WAV/PCM, загрузка через multipart.
+- Делать аккуратный UI на **SwiftUI**: Asset Catalog, кастомные шрифты, тёмная/светлая тема, плавные переходы и анимации.
+- Состояние через **Combine** и property wrappers (`@StateObject`, `@ObservedObject`, `@EnvironmentObject`, `@Published`).
+- Договариваться с бэкендом — у меня есть опыт собственных API на Python и Go, поэтому я понимаю, что происходит «по другую сторону».
+
+---
+
+## 💼 Почему меня стоит выбрать
+
+- ✅ Делаю не «один экран», а приложения с архитектурой, сетевым слоем и хранилищем
+- ✅ Понимаю, как работает бэкенд
+- ✅ Умею аккуратно работать с UI: тема, шрифты, ассеты, адаптация
+- ✅ Быстро учусь, довожу задачи до конца и не боюсь сложных тем
+- ✅ Я крутая и вообще молодец ✨
+
+---
+
+> Открыта к стажировкам и интересным проектам.
