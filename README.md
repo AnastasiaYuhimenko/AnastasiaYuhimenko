@@ -7,7 +7,7 @@
 
 | Область | Технологии |
 |---------|------------|
-| **Языки** | Swift 5 |
+| **Языки** | Swift |
 | **UI** | SwiftUI |
 | **Архитектура** | MVVM, разделение на View / ViewModel / Service / Networking |
 | **Сеть** | `URLSession`, `Codable`, `multipart/form-data`, собственный слой `APIClient` / `Requestable` / `Resource` |
