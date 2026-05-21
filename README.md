@@ -8,10 +8,10 @@
 | Область | Технологии |
 |---------|------------|
 | **Языки** | Swift |
-| **UI** | SwiftUI |
-| **Архитектура** | MVVM, разделение на View / ViewModel / Service / Networking |
-| **Сеть** | `URLSession`, `Codable`, `multipart/form-data`, собственный слой `APIClient` / `Requestable` / `Resource` |
-| **Хранение данных** | Core Data (`NSPersistentContainer`, `@FetchRequest`), `UserDefaults`, FileManager |
+| **UI** | SwiftUI, UIKit |
+| **Архитектура** | MVVM, MVC |
+| **Сеть** | `URLSession`, `Codable` |
+| **Хранение данных** | Core Data, `UserDefaults` |
 
 ![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=swift&logoColor=white)
@@ -28,6 +28,7 @@
 | 🥇 Финалист **PROD** | Международная олимпиада по промышленной разработке |
 | 🥇 Финалист **«Высшая проба»** | Олимпиада по промышленному программированию |
 | 🥇 Финалист **NlogN** | Олимпиада по алгоритмам |
+| 4 место | Хакатон PROD(Минск 2026)|
 
 ---
 
@@ -53,6 +54,9 @@
 ---
 
 ## 📱 iOS-проекты
+
+### [MeetPoint](https://github.com/AnastasiaYuhimenko/MeetPoin_Mobile) - приложение для знакомств на мероприятиях
+Приложение на SwiftUI. Было написано в рамках хакатона PROD. Помогает участникам мероприятий проще заводить знакомства. Организатор создает мероприятие и выводит QR на экран, участники сканируют QR и присодиняются к нему, далее они могут просматривать профили участников и отправлять запросы на знакомство, после принятия запроса оба участника увидят контакты друг друга 
 
 ### [ScreenEx](https://github.com/AnastasiaYuhimenko/ScreenEx) — приложение-портфель для отслеживания крипты
 SwiftUI-приложение с собственным портфелем монет, поиском и просмотром топ-рынка.
